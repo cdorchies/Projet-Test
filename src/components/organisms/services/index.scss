@@ -1,0 +1,11 @@
+.services_part {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  div {
+    flex: 1;
+    h2 {
+      text-align: center;
+    }
+  }
+}

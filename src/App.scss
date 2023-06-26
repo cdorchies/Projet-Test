@@ -1,0 +1,26 @@
+.App {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  header {
+    margin: 0 auto;
+  }
+}
+
+// // SCROLLBAR
+
+/* Styles pour la barre de défilement */
+::-webkit-scrollbar {
+  width: 8px; /* Largeur de la barre de défilement */
+}
+
+/* Styles pour le track (fond) */
+::-webkit-scrollbar-track {
+  background: #fff; /* Couleur du fond */
+}
+
+/* Styles pour le thumb (poignée) */
+::-webkit-scrollbar-thumb {
+  background: #7daaaa;
+  &:hover {
+    background: #4c6b6b;
+  }
+}

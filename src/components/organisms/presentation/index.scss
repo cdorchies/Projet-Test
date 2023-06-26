@@ -1,0 +1,36 @@
+.presentation_part {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  div:nth-child(1) {
+    max-width: 500px;
+    width: 500px;
+    img.img-about {
+      width: 100%;
+    }
+  }
+  div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    width: 500px;
+    h2 {
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: #7daaaa;
+    }
+    h3 {
+      font-size: 25px;
+      margin-bottom: 20px;
+      color: #5f5f5f;
+    }
+    p {
+      font-size: 16px;
+      text-align: justify;
+      color: #5f5f5f;
+    }
+  }
+}
